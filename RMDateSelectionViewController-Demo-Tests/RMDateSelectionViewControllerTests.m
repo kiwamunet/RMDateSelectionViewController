@@ -19,8 +19,8 @@
 
 #pragma mark - Helper
 - (RMDateSelectionViewController *)createDateSelectionViewControllerWithStyle:(RMActionControllerStyle)aStyle {
-    RMAction *selectAction = [RMAction actionWithTitle:@"Select" style:RMActionStyleDone andHandler:nil];
-    RMAction *cancelAction = [RMAction actionWithTitle:@"Cancel" style:RMActionStyleCancel andHandler:nil];
+    RMAction *selectAction = [RMAction actionWithTitle:@"決定" style:RMActionStyleDone andHandler:nil];
+    RMAction *cancelAction = [RMAction actionWithTitle:@"キャンセル" style:RMActionStyleCancel andHandler:nil];
     
     RMDateSelectionViewController *dateSelectionController = [RMDateSelectionViewController actionControllerWithStyle:aStyle];
     dateSelectionController.title = @"Test";
